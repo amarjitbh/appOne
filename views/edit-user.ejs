@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%=title%></title>
+    <script type="text/javascript" src="/../js/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="/../css/style.css">
+</head>
+    <body>
+        <form method="post" action="/update-users">
+            <input type="hidden" name="user_id" value="<%=data[0].id%>">
+            <table cellpadding="11">
+                <tr>
+                    <td class="label">Name</td><td>: <input type="text" name="name" value="<%=data[0].username%>"></td>
+                </tr>
+                <tr>
+                    <td class="label">Email</td><td>: <input type="text" name="email" value="<%=data[0].email%>"></td>
+                </tr>
+                <tr>
+                    <td class="label">Password</td><td>: <input type="password" name="password" value="<%=data[0].password%>"></td>
+                </tr>
+                <tr>
+                    <td class="label"></td>
+                    <td>
+                        &nbsp; <input type="submit" value="Save">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
