@@ -1,8 +1,3 @@
-This is an example of RESTful CRUD in Node.js n mySQL.
-
-Installation, and tutorial here : http://teknosains.com/i/restful-crud-example-with-nodejs-and-mysql 
-
-Live DEMO: http://teknosains.com/i/simple-crud-nodejs-mysql
 
 ## Installation
 *for newbies : Clone or download zip to your machine then hit this :
@@ -28,4 +23,4 @@ You're gonna need to create a DB named 'test' or whatever you name it,  import t
 
 
 ## Open your Browser
-And type: localhost:3000/api/user
+And type: localhost:3000/users
